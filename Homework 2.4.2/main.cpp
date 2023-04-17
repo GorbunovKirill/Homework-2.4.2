@@ -105,6 +105,7 @@ int main() {
 	write.close();
 	read.close();
 
+	delete[] second;
 	delete[] first;
 	return 0;
 }
